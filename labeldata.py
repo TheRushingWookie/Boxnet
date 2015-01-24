@@ -9,7 +9,7 @@ training_file = open("./train.txt", 'w')
 testing_dir = sys.argv[1] + "/test"
 testing_files = os.listdir(testing_dir)
 testing_file = open("./test.txt", 'w')
-num_cases = 10
+num_cases = 1000
 i = 0
 for file in training_files:
 	if file == ".DS_Store":

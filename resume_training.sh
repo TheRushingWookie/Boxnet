@@ -2,4 +2,4 @@
 
 $CAFFE_ROOT/build/tools/caffe train \
     --solver=./solver.prototxt \
-    --snapshot=./caffenet_train_10000.solverstate
+    --snapshot=./boxnet_train_file_iter_6000.solverstate

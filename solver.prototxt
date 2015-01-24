@@ -11,4 +11,4 @@ momentum: 0.9
 weight_decay: 0.0005
 snapshot: 1000
 snapshot_prefix: "./boxnet_train_file"
-solver_mode: CPU
+solver_mode: GPU
